@@ -11,6 +11,14 @@ Info_1("Client version: %1", QUOTE(VERSION_FULL));
 
 // *************************** Client pre-setup init *******************************
 
+//McDAZED
+0 enableChannel [false, false]; // Global (can't be disabled for admins)
+1 enableChannel [true, true]; // Side
+2 enableChannel [false, false]; // Command
+3 enableChannel [false, false]; // Group
+4 enableChannel [false, false]; // Vehicle
+5 enableChannel [false, false]; // Direct
+
 if (call A3A_fnc_modBlacklist) exitWith {};
 
 private _enableInitMessages = profileNamespace getVariable ["A3U_setting_enableInitMessages", true];

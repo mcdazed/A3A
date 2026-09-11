@@ -26,7 +26,7 @@ class EditorData
 		aside[]={0.98802197,-2.1937012e-07,-0.15486896};
 	};
 };
-binarizationWanted=0;
+binarizationWanted=1;
 sourceName="Antistasi_lingor3";
 addons[]=
 {

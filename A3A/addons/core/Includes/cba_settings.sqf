@@ -13,7 +13,7 @@ force TFAR_giveMicroDagrToSoldier = false;
 force TFAR_givePersonalRadioToRegularSoldier = true;
 force TFAR_SameLRFrequenciesForSide = true;
 force TFAR_SameSRFrequenciesForSide = true;
-force TFAR_setting_defaultFrequencies_sr_independent = "100";
+//force TFAR_setting_defaultFrequencies_sr_independent = "100";
 
 // ACE Captives
 force ace_captives_allowHandcuffOwnSide = false;

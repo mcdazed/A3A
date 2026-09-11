@@ -26,7 +26,7 @@ class EditorData
 		aside[]={0.99668217,7.3589035e-07,0.082305409};
 	};
 };
-binarizationWanted=0;
+binarizationWanted=1;
 sourceName="playerslotantistasi";
 addons[]=
 {

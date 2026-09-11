@@ -26,7 +26,7 @@ class EditorData
 		aside[]={-0.32352573,1.7450657e-07,0.94623685};
 	};
 };
-binarizationWanted=0;
+binarizationWanted=1;
 sourceName="Antistasi_regero";
 addons[]=
 {

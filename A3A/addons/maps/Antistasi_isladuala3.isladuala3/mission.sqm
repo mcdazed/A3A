@@ -26,7 +26,7 @@ class EditorData
 		aside[]={0.064830698,7.727067e-09,-0.99791557};
 	};
 };
-binarizationWanted=0;
+binarizationWanted=1;
 sourceName="antistasiultimate";
 addons[]=
 {

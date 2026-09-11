@@ -30,7 +30,7 @@ class EditorData
 		aside[]={0.83453351,-2.6484486e-07,-0.55097938};
 	};
 };
-binarizationWanted=0;
+binarizationWanted=1;
 sourceName="UMB_Colombia";
 addons[]=
 {

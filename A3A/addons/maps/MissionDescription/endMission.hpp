@@ -42,8 +42,8 @@ class noSingleplayer
 {
 	title = $STR_end_mission_noSingleplayer_title;
 	subtitle = $STR_end_mission_noSingleplayer_desc;
-	picture = "b_unknown";
-	pictureColor[] = {1,0.5,0.0,1};
+	picture = "loc_save";
+	pictureColor[] = {1,0.7,0.0,0.9};
 };
 class ironManPetros
 {

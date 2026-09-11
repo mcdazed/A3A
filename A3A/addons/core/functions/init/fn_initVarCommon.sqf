@@ -106,9 +106,18 @@ A3A_hasACRE = isClass (configFile >> "cfgPatches" >> "acre_main");
 A3A_hasTFARBeta = isClass (configFile >> "CfgPatches" >> "tfar_static_radios");
 if (A3A_hasTFARBeta) then {A3A_hasTFAR = false};
 //ACE Detection
-A3A_hasACE = (!isNil "ace_common_fnc_isModLoaded");
+// McDAZED
+A3A_hasACE = (false); //(!isNil "ace_common_fnc_isModLoaded"); // McDAZED
 A3A_hasACEHearing = isClass (configFile >> "CfgSounds" >> "ACE_EarRinging_Weak");
 A3A_hasACEMedical = isClass (configFile >> "CfgSounds" >> "ACE_heartbeat_fast_3");
+
+// McDAZED
+0 enableChannel [false, false]; // Global (can't be disabled for admins)
+1 enableChannel [true, true]; // Side
+2 enableChannel [false, false]; // Command
+3 enableChannel [false, false]; // Group
+4 enableChannel [false, false]; // Vehicle
+5 enableChannel [false, false]; // Direct
 
 //ADV-CPR Pike Edition detection
 A3A_hasADV = false;

@@ -26,7 +26,7 @@ class EditorData
 		aside[]={0.62032342,-9.0105459e-08,0.78435653};
 	};
 };
-binarizationWanted=0;
+binarizationWanted=1;
 sourceName="antistasi_korsac";
 addons[]=
 {

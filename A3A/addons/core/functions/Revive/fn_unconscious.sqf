@@ -1,21 +1,23 @@
 params ["_unit", "_injurer"];
 
-private _bleedOut = time + 450;
+//McDAZED
+private _bleedOut = time + 600;
 private _isPlayer = false;
 private _playersX = false;
 private _inPlayerGroup = false;
 private _handlerCountdown = 0;
-_unit setBleedingremaining 300;
+_unit setBleedingremaining 600;
 
-private _fnc_applyPostEffect = {
-	"colorCorrections" ppEffectAdjust [1,1,0, [0.1,0.2,0.3,-0.5], [1,1,1,0.4], [0.5,0.2,0,1]]; 
-	"colorCorrections" ppEffectCommit 0; 
-	"colorCorrections" ppEffectEnable true;
-	
-	"filmGrain" ppEffectAdjust [0.05, 1, 1, 0, 1]; 
-	"filmGrain" ppEffectCommit 0; 
-	"filmGrain" ppEffectEnable true;
-};
+// McDAZED
+//private _fnc_applyPostEffect = {
+//	"colorCorrections" ppEffectAdjust [1,1,0, [0.1,0.2,0.3,-0.5], [1,1,1,0.4], [0.5,0.2,0,1]]; 
+//	"colorCorrections" ppEffectCommit 0; 
+//	"colorCorrections" ppEffectEnable true;
+//	
+//	"filmGrain" ppEffectAdjust [0.05, 1, 1, 0, 1]; 
+//	"filmGrain" ppEffectCommit 0; 
+//	"filmGrain" ppEffectEnable true;
+//};
 
 private _fnc_selfReviveCountdownStart = {
 	private _diff = (_unit getVariable ["A3A_selfReviveTimeout", -1]) - time;

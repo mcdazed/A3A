@@ -22,7 +22,7 @@ class EditorData
 		aside[]={0.73597431,-6.5308996e-08,-0.67701006};
 	};
 };
-binarizationWanted=0;
+binarizationWanted=1;
 sourceName="antistasi_green_sea_2023";
 addons[]=
 {

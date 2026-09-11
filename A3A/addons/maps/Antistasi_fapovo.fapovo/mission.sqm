@@ -26,7 +26,7 @@ class EditorData
 		aside[]={0.72051936,-4.1909516e-08,-0.69343674};
 	};
 };
-binarizationWanted=0;
+binarizationWanted=1;
 sourceName="antistasi_fapovo";
 addons[]=
 {

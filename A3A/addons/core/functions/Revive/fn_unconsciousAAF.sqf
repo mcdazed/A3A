@@ -2,7 +2,8 @@
 FIX_LINE_NUMBERS()
 params ["_unit", "_injurer"];
 
-private _bleedOutTime = if (surfaceIsWater (position _unit)) then {time + 60} else {time + 300};
+//McDAZED
+private _bleedOutTime = if (surfaceIsWater (position _unit)) then {time + 45} else {time + 45};
 private _playerNear = false;
 private _group = group _unit;
 private _side = side _unit;

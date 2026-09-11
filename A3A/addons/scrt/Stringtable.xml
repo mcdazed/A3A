@@ -1866,7 +1866,7 @@
                 <Turkish>İsyancıların bir Komutanı olmadığı için PvP moduna girilemez.</Turkish>
             </Key>
             <Key ID="STR_end_mission_noSingleplayer_title">
-                <Original>Singleplayer is Not Supported</Original>
+                <Original>MISSION SAVED</Original>
                 <Russian>Одиночная игра не поддерживается</Russian>
                 <Chinesesimp>不支持单人模式</Chinesesimp>
                 <Korean>싱글 플레이어 미지원</Korean>
@@ -1874,7 +1874,7 @@
                 <Turkish>Tek Oyunculu Mod Desteklenmiyor</Turkish>
             </Key>
             <Key ID="STR_end_mission_noSingleplayer_desc">
-                <Original>Start LAN server to play as single player.</Original>
+                <Original>THE REVOLUTION AWAITS YOUR RETURN...</Original>
                 <Russian>Запустите сервер локальной сети, чтобы играть в одиночном режиме.</Russian>
                 <Chinesesimp>启动局域网服务器进行单人游戏。</Chinesesimp>
                 <Korean>싱글 플레이어로 플레이하려면 LAN 서버로 시작하십시오.</Korean>

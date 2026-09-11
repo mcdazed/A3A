@@ -1,8 +1,10 @@
 respawn = "BASE";
-respawnDelay = 15;
+respawnDelay = 8;
+
+briefing = 0;
 
 // Player corpses preserved for 15min minimum
-corpseRemovalMinTime = 900;
+corpseRemovalMinTime = 300;
 
 aiKills = 0;
 disabledAI = 1;
@@ -19,7 +21,7 @@ class CfgTaskEnhancements
 {
   enable       = 1;
   3d           = 1;
-  3dDrawDist   = 3500;
+  3dDrawDist   = 2000;
   share        = 1;
   propagate    = 1;
 };
